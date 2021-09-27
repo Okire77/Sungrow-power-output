@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-sungrow-power-output",
+  "version": "0.0.1",
+  "description": "Homebridge integration for Sungrow inverters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Okire77/Sungrow-power-output"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "Sungrow",
+    "solar",
+    "inverter"
+  ],
+  "author": "Erik",
+  "license": "ISC",
+  "dependencies": {
+    "fakegato-history": "^0.5.6",
+    "modbus-serial": "^7.7.3",
+    "moment": "^2.24.0"
+  },
+  "engines": {
+    "homebridge": ">=0.4.16",
+    "node": ">=7.2.0"
+  }
+}
